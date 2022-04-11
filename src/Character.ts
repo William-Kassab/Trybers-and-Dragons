@@ -83,7 +83,7 @@ export default class Character implements Fighter {
     this._lifePoints = this._maxLifePoints;
   }
 
-  static special(enemy: Fighter): void {
+  special(enemy: Fighter): void {
     console.log(enemy);
   }
 }
